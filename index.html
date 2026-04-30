@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Renno Maturan</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-mesh text-slate-900">
+
+    <header class="navbar-glass">
+        <div class="max-w-7xl mx-auto px-8 h-24 flex justify-between items-center">
+            <div class="logo">Portfolio</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="btn-nav">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="max-w-5xl w-full text-center px-6">
+            
+            <div class="avatar-container">
+                <div class="avatar-glow"></div>
+                <div class="avatar-main">
+                    <img src="images/profile.png" alt="Renno Maturan profile photo" class="avatar-photo">
+                </div>
+            </div>
+
+            <div class="content-stack">
+                <p class="status-badge">Available for Projects</p>
+                <h1 class="hero-name">Renno Maturan</h1>
+                <p class="hero-desc">
+                    Computer Science student who enjoys building practical C# desktop apps, responsive web projects, and clean user-focused systems that solve real problems.
+                </p>
+            </div>
+
+            <div class="cta-group">
+                <a href="#projects" class="btn-primary">
+                    View My Work
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn-secondary">Get In Touch</a>
+            </div>
+
+            <div class="social-bar">
+                <a href="https://github.com/Kishwolf07"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/renato.maturan.3"><i class="fab fa-facebook"></i></a>
+                <a href="mailto:ccs.renno04@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-me">
+        <div class="max-w-5xl w-full px-6">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-desc">
+                I'm a Computer Science student at the University of Technology with hands-on experience building desktop and web-based systems. I enjoy turning ideas into working applications that are simple, useful, and easy to navigate.
+            </p>
+            <p class="section-desc">
+                Most of my projects are built with C#, WinForms, ASP.NET MVC, SQL Server, HTML, CSS, JavaScript, and Bootstrap. I like working on management systems, e-commerce platforms, and interactive apps that strengthen both my technical skills and design thinking.
+            </p>
+            <p class="section-desc">
+                I'm currently focused on growing as a developer, improving the quality of my work, and building a portfolio that reflects both my academic progress and the projects I can deliver in real-world settings.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="max-w-7xl w-full mx-auto px-6">
+            <h2 class="skills-title">Technical Skills</h2>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3 class="skill-card-title">Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-microchip"></i>
+                    </div>
+                    <h3 class="skill-card-title">Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3 class="skill-card-title">Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SSMS</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                    <h3 class="skill-card-title">Tools & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="max-w-7xl w-full mx-auto px-6">
+            <h2 class="projects-title">Featured Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image project-image-commerce"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">HighKicks</h3>
+                        <p class="project-desc">
+                            Shoe e-commerce desktop application built with WinForms in C#, focused on product browsing and a clean desktop shopping flow.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">WinForms</span>
+                            <span class="project-tag">Desktop App</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Kishwolf07/HighKicks.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-image-study"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Ticketing System</h3>
+                        <p class="project-desc">
+                            Airplane ticketing system desktop app created with WinForms and C#, designed to manage booking workflows in a desktop environment.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">WinForms</span>
+                            <span class="project-tag">Airline System</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Kishwolf07/TICKETING-SYSTEM.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-image-weather"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">SimpleGame</h3>
+                        <p class="project-desc">
+                            Simple mobile game developed in .NET MAUI using C#, built as a cross-platform project for modern mobile experiences.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">.NET MAUI</span>
+                            <span class="project-tag">Cross-Platform</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Kishwolf07/SimpleGame.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-image-portfolio"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">ONEFIT E-Commerce</h3>
+                        <p class="project-desc">
+                            Simple e-commerce website built with HTML, CSS, JavaScript, and Bootstrap, featuring a straightforward storefront layout.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Kishwolf07/ONEFIT-e-commerce.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-image-student"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Student Management System</h3>
+                        <p class="project-desc">
+                            Student management system powered by SQL Server, WinForms, and C# for handling student records in a desktop-based setup.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">WinForms</span>
+                            <span class="project-tag">SQL Server</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Kishwolf07/Studen-Management-System.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-image-mvc"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-commerce Admin Management</h3>
+                        <p class="project-desc">
+                            ASP.NET MVC web project built with C#, focused on the admin side only of an e-commerce system for managing store operations.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">ASP.NET MVC</span>
+                            <span class="project-tag">Admin Side</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Kishwolf07/ClothingMVC.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-image-game"></div>
+                    <div class="project-content">
+                        <h3 class="project-title">Ragnarok Simulator</h3>
+                        <p class="project-desc">
+                            A desktop application built with C# and WinForms that simulates the Ragnarok Online game environment, allowing users to experience classic gameplay mechanics in a standalone app.
+                        </p>
+                        <div class="project-tags">
+                            <span class="project-tag">C#</span>
+                            <span class="project-tag">WinForms</span>
+                            <span class="project-tag">Game Simulation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Kishwolf07/Ragnarok-Simulator-skill.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="max-w-6xl w-full mx-auto px-6">
+            <div class="contact-shell">
+                <div class="contact-copy">
+                    <p class="contact-kicker">Let's Connect</p>
+                    <h2 class="contact-title">Contact Me</h2>
+                    <p class="contact-desc">
+                        If you want to collaborate, ask about a project, or talk about internship and freelance opportunities, feel free to reach out. I'm always open to meaningful conversations and new ideas.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <a href="mailto:ccs.renno04@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 class="contact-card-title">Email</h3>
+                        <p class="contact-card-text">ccs.renno04@gmail.com</p>
+                        <span class="contact-card-link">Send a message</span>
+                    </a>
+
+                    <a href="https://github.com/Kishwolf07" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3 class="contact-card-title">GitHub</h3>
+                        <p class="contact-card-text">@Kishwolf07</p>
+                        <span class="contact-card-link">View profile</span>
+                    </a>
+
+                    <a href="https://www.facebook.com/renato.maturan.3" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <h3 class="contact-card-title">Facebook</h3>
+                        <p class="contact-card-text">Renato Maturan</p>
+                        <span class="contact-card-link">Send a message</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="max-w-6xl mx-auto px-6 footer-inner">
+            <p class="footer-copy">Renno Maturan Portfolio</p>
+            <p class="footer-meta">Built with HTML, Tailwind utilities, custom CSS, and a lot of patience.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
